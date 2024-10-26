@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 main{
-    border: 15px solid;
+    border: 10px solid;
     width: fit-content;
 
 }
@@ -19,33 +19,33 @@ div{
     display: flex;
 }
 span{
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
 }
 div span:nth-child(odd){
     background-color: burlywood;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
-    padding: 15px;
+    padding: 8px;
 }
 div span:nth-child(even){
     background-color: brown;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
-    padding: 15px;
+    padding: 8px;
 }
 .container span:nth-child(odd){
     background-color: brown;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
 }
 .container span:nth-child(even){
     background-color: burlywood;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
 }
 .div span:nth-child(even){
