@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 main{
-    width: 100%;
+    border: 15px solid;
+    width: fit-content;
+
 }
 div{
     display: flex;
-    
 }
 span{
-    width: 8vw;
-    height: 12vh;
+    width: 80px;
+    height: 80px;
 }
 div span:nth-child(odd){
     background-color: burlywood;
